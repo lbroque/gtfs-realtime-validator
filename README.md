@@ -109,7 +109,7 @@ Or, build the image yourself using the following:
 
 Then, run with:
 
-`docker run gtfs-realtime-validator`
+`docker run --rm --name gtfs-validator -p 8080:8080 cutrusf/gtfs-realtime-validator`
 
 Then go to `http://<docker-machine-ip>:8080` in your web browser. For example, `http://192.168.99.100:8080/`.
 
